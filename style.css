@@ -11,13 +11,16 @@ html {
   height: 100%;
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
-  background-color: #060606;
+  /* background-color: #060606; */
 }
 
 header,
 main {
   width: 100vw;
   height: 100vh;
+}
+
+header {
   position: relative;
 }
 
@@ -79,6 +82,7 @@ nav > ul > li > a {
   background-size: 200% 100%;
   background-position: left bottom;
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: background-position 0.5s ease, color 0.5s ease;
 }
@@ -126,9 +130,9 @@ nav > ul > li > a:hover {
   }
 }
 
-#gallery-wrapper {
-  margin-top: 5em;
-  height: 70%;
+#gallery-wrapper,
+#our-teacher-wrapper {
+  height: 100%;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -136,7 +140,12 @@ nav > ul > li > a:hover {
   justify-content: center;
 }
 
-#gallery-wrapper > h1 {
+#gallery-wrapper {
+  background-color: rgb(224, 224, 224);
+}
+
+#gallery-wrapper > h1,
+#our-teacher-wrapper > h1 {
   width: 90%;
   font-size: 3rem;
   color: white;
@@ -156,4 +165,19 @@ nav > ul > li > a:hover {
   border: black;
   height: 100%;
   border-radius: 20px;
+}
+
+#our-teacher {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#our-teacher > * {
+  width: 50%;
+  margin-left: 5vw;
+}
+
+#our-teacher > img {
+  width: 500px;
 }

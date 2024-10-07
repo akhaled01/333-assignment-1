@@ -92,6 +92,39 @@ nav > ul > li > a:hover {
   color: black; /* Ensures visibility when background changes to white */
 }
 
+caption{
+	font-weight: bold;
+	color: white;
+	background-color: black;}
+
+th {
+    color: white;
+    background-color: Gray;}
+
+th, td {
+	border-bottom: 1px solid;
+	padding: 5px;
+	text-align: center;
+	vertical-align: center;}
+
+tr:nth-child(even) {
+    background-color: #f1f1f1;}
+	
+ol{
+    list-style-type: disc;
+}
+
+footer {
+	text-align: center;
+	padding: 1rem 0;
+	background-color: Gray;
+}
+
+footer ul li {
+	display: inline;
+	margin-right: 1rem;
+}
+
 #landing-view {
   height: 100%;
   display: flex;
@@ -130,7 +163,9 @@ nav > ul > li > a:hover {
   }
 }
 
+#schedule-wrapper,
 #gallery-wrapper,
+#announcements-wrapper,
 #our-teacher-wrapper {
   height: 100%;
   width: 100%;
@@ -140,11 +175,16 @@ nav > ul > li > a:hover {
   justify-content: center;
 }
 
-#gallery-wrapper {
+#schedule-wrapper,
+#gallery-wrapper,
+#announcements-wrapper,
+#our-teacher-wrapper {
   background-color: rgb(224, 224, 224);
 }
 
+#schedule-wrapper > h1 ,
 #gallery-wrapper > h1,
+#announcements-wrapper > h1,
 #our-teacher-wrapper > h1 {
   width: 90%;
   font-size: 3rem;

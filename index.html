@@ -4,12 +4,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>Sunshine Kindergarten</title>
   </head>
   <body>
     <header>
+      <!--responsive navigation bar-->
       <nav>
+        <!--NOTE: Abdulrahman Idrees, allows for the navbar to be compressed in mobile environments-->
         <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
         <ul>
           <li><a href="#schedule">Schedule</a></li>
@@ -18,12 +20,13 @@
           <li><a href="#our-teacher">Our Teacher</a></li>
         </ul>
       </nav>
+      <!--Welcome message-->
       <div class="container">
         <h1>Sunshine Kindergarten</h1>
         <h2>Where Little Minds Blossom</h2>
       </div>
     </header>
-
+    <!--Weekly schedule-->
     <main>
       <section id="schedule">
         <div class="container">
@@ -66,7 +69,7 @@
           </div>
         </div>
       </section>
-
+      <!--Gallery-->
       <section id="gallery">
         <div class="container">
           <h2>Our Gallery</h2>
@@ -104,7 +107,7 @@
           </div>
         </div>
       </section>
-
+      <!--announcements-->
       <section id="announcements">
         <div class="container">
           <h2>Announcements</h2>
@@ -124,7 +127,7 @@
           </ol>
         </div>
       </section>
-
+      <!--our teacher-->
       <section id="our-teacher">
         <div class="container">
           <h2>Our Teacher</h2>
@@ -149,7 +152,7 @@
         </div>
       </section>
     </main>
-
+    <!--footer-->
     <footer>
       <div class="container">
         <h4>Follow us on:</h4>
@@ -161,10 +164,10 @@
         <p>Contact: JaneSmith@SunshineKindergarten.com</p>
       </div>
     </footer>
-
+    <!--Javascript to toggle nav in mobile-->
     <script>
-      document.querySelector('.nav-toggle').addEventListener('click', function() {
-        document.querySelector('nav ul').classList.toggle('show');
+      document.querySelector(".nav-toggle").addEventListener("click", () => {
+        document.querySelector("nav ul").classList.toggle("show");
       });
     </script>
   </body>

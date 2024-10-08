@@ -3,164 +3,168 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
     <title>Sunshine Kindergarten</title>
   </head>
   <body>
     <header>
-      <!--Navbar Section-->
       <nav>
+        <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
         <ul>
-          <li><a href="#schedule-wrapper">Schedule</a></li>
-          <li><a href="#gallery-wrapper">Gallery</a></li>
-          <li><a href="#announcements-wrapper">Announcements</a></li>
-          <li><a href="#our-teacher-wrapper">Our Teacher</a></li>
+          <li><a href="#schedule">Schedule</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#announcements">Announcements</a></li>
+          <li><a href="#our-teacher">Our Teacher</a></li>
         </ul>
       </nav>
-      <div id="landing-view">
-        <div>
-          <h1>Sunshine Kindergarten</h1>
-          <h2>Where Little Minds Blossom</h2>
-        </div>
+      <div class="container">
+        <h1>Sunshine Kindergarten</h1>
+        <h2>Where Little Minds Blossom</h2>
       </div>
     </header>
+
     <main>
-	 <!--Weekly Schedule-->
-	  <div id="schedule-wrapper">
-		<h1>Schedule</h1>
-		<div id="schedule">
-			<table>
-			<caption>Weekly schedule</caption>
-				<!--Week Days-->
-				<tr>
-					<th>SUN</th>
-					<th>MON</th>
-					<th>TUE</th>
-					<th>WED</th>
-					<th>THU</th>
-				</tr>
-				<!--From 8 to 9-->
-				<tr>
-					<td>08:00AM - Free play time</td>
-					<td>08:00AM - Free play time</td>
-					<td>08:00AM - Free play time</td>
-					<td>08:00AM - Free play time</td>
-					<td>08:00AM - Free play time</td>
-				</tr>
-				<!--From 9 to 9:30-->
-				<tr>
-					<td>09:00AM - Breakfast</td>
-					<td>09:00AM - Breakfast</td>
-					<td>09:00AM - Breakfast</td>
-					<td>09:00AM - Breakfast</td>
-					<td>09:00AM - Breakfast</td>
-				</tr>
-				<!--From 9:30 to 11-->
-				<tr>
-					<td>09:30AM - Nap time</td>
-					<td>09:30AM - Nap time</td>
-					<td>09:30AM - Nap time</td>
-					<td>09:30AM - Nap time</td>
-					<td>09:30AM - Nap time</td>
-				</tr>
-				<!--From 11 to 12-->
-				<tr>
-					<td>11:00AM - Since class</td>
-					<td>11:00AM - Math class</td>
-					<td>11:00AM - English class</td>
-					<td>11:00AM - Drawing session</td>
-					<td>11:00AM - Sports activities</td>
-				</tr>
-				<!--End of the day 12-->
-				<tr>
-					<td>12:00AM - End of the day</td>
-					<td>12:00AM - End of the day</td>
-					<td>12:00AM - End of the day</td>
-					<td>12:00AM - End of the day</td>
-					<td>12:00AM - End of the day</td>
-				</tr>
-			</table>
-		</div>
-	  </div>
-      <!--Gallery Section-->
-      <div id="gallery-wrapper">
-        <h1>Our Gallery</h1>
-        <div id="gallery">
-          <img
-            src="https://images.pexels.com/photos/3662635/pexels-photo-3662635.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            class="gallery-img"
-          />
-          <img
-            src="https://images.pexels.com/photos/3662822/pexels-photo-3662822.jpeg?auto=compress&cs=tinysrgb&w=600"
-            class="gallery-img"
-          />
-          <img
-            src="https://images.pexels.com/photos/8613089/pexels-photo-8613089.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            class="gallery-img"
-          />
-          <img
-            src="https://images.pexels.com/photos/3662802/pexels-photo-3662802.jpeg?auto=compress&cs=tinysrgb&w=600"
-            class="gallery-img"
-          />
-          <img
-            src="https://images.pexels.com/photos/8613312/pexels-photo-8613312.jpeg?auto=compress&cs=tinysrgb&w=600"
-            class="gallery-img"
-          />
-          <img
-            src="https://images.pexels.com/photos/8612993/pexels-photo-8612993.jpeg?auto=compress&cs=tinysrgb&w=600"
-            class="gallery-img"
-          />
-        </div>
-      </div>
-	  <!--Announcements Section-->
-	  <div id="announcements-wrapper">
-		<h1>Announcements</h1>
-		<div id="announcements">
-			<ol>
-				<h1><li>The year have 3 semesters starting from 1/Sep, each semster have 12 weeks</li></h1>
-				<h3><li>The parents must be committed to attending and leaveing times</li></h3>
-				<h3><li>The kids must be dressed appropriately</li></h3>
-				<h3><li>Every kid should bring their own breakfast meal</li></h3>
-				<h3><li>If the kid is ill he/she must stay home</li></h3>
-				<h3><li>In the end of the third semester, a report will be given to parents to show their kid performance</li></h3>
-			</ol>
-		</div>
-	  </div>
-      <!--Teacher Section-->
-      <div id="our-teacher-wrapper">
-        <h1>Our Teacher</h1>
-        <div id="our-teacher">
-          <div id="our-teacher-info">
-            <h1>Ms. Jane Smith</h1>
-            <p>
-              Ms. Jane Smith is a warm and energetic kindergarten teacher with a
-              passion for nurturing young minds. With over ten years of
-              experience in early childhood education, she creates a welcoming
-              and playful learning environment where curiosity and creativity
-              thrive. Ms. Smith is known for her gentle approach, guiding her
-              students with patience and kindness as they explore the basics of
-              reading, math, and social skills. She often incorporates arts and
-              crafts, music, and interactive storytelling into her lessons,
-              making every day fun and engaging. Her bright smile and
-              encouraging words make her classroom a place where children feel
-              safe, confident, and excited to learn.
-            </p>
+      <section id="schedule">
+        <div class="container">
+          <h2>Weekly Schedule</h2>
+          <div id="schedule">
+            <table>
+              <tr>
+                <th>Time</th>
+                <th>SUN</th>
+                <th>MON</th>
+                <th>TUE</th>
+                <th>WED</th>
+                <th>THU</th>
+              </tr>
+              <tr>
+                <td>08:00AM</td>
+                <td colspan="5">Free play time</td>
+              </tr>
+              <tr>
+                <td>09:00AM</td>
+                <td colspan="5">Breakfast</td>
+              </tr>
+              <tr>
+                <td>09:30AM</td>
+                <td colspan="5">Nap time</td>
+              </tr>
+              <tr>
+                <td>11:00AM</td>
+                <td>Science class</td>
+                <td>Math class</td>
+                <td>English class</td>
+                <td>Drawing session</td>
+                <td>Sports activities</td>
+              </tr>
+              <tr>
+                <td>12:00PM</td>
+                <td colspan="5">End of the day</td>
+              </tr>
+            </table>
           </div>
-          <img
-            src="https://images.pexels.com/photos/8612993/pexels-photo-8612993.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            alt="jane-smith"
-          />
         </div>
-      </div>
-	<footer>
-		<h4><p>Follow us on:</p></h4>
-		<ul>
-		<li><a href="#">Facebook</a></li>
-		<li><a href="#">Twitter</a></li>
-		<li><a href="#">Instagram</a></li>
-		</ul>
-		<h5><p>Contact: JaneSmith@SunshineKindergarten.com</p></h5>
-	</footer>
+      </section>
+
+      <section id="gallery">
+        <div class="container">
+          <h2>Our Gallery</h2>
+          <div id="gallery">
+            <img
+              src="https://images.pexels.com/photos/3662635/pexels-photo-3662635.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              class="gallery-img"
+              alt="Kids playing"
+            />
+            <img
+              src="https://images.pexels.com/photos/3662822/pexels-photo-3662822.jpeg?auto=compress&cs=tinysrgb&w=600"
+              class="gallery-img"
+              alt="Kids learning"
+            />
+            <img
+              src="https://images.pexels.com/photos/8613089/pexels-photo-8613089.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              class="gallery-img"
+              alt="Kids drawing"
+            />
+            <img
+              src="https://images.pexels.com/photos/3662802/pexels-photo-3662802.jpeg?auto=compress&cs=tinysrgb&w=600"
+              class="gallery-img"
+              alt="Kids reading"
+            />
+            <img
+              src="https://images.pexels.com/photos/8613312/pexels-photo-8613312.jpeg?auto=compress&cs=tinysrgb&w=600"
+              class="gallery-img"
+              alt="Kids in classroom"
+            />
+            <img
+              src="https://images.pexels.com/photos/8612993/pexels-photo-8612993.jpeg?auto=compress&cs=tinysrgb&w=600"
+              class="gallery-img"
+              alt="Teacher with kids"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="announcements">
+        <div class="container">
+          <h2>Announcements</h2>
+          <ol>
+            <li>
+              The year has 3 semesters starting from 1/Sep, each semester has 12
+              weeks
+            </li>
+            <li>Parents must be committed to attending and leaving times</li>
+            <li>Kids must be dressed appropriately</li>
+            <li>Every kid should bring their own breakfast meal</li>
+            <li>If a kid is ill, they must stay home</li>
+            <li>
+              At the end of the third semester, a report will be given to
+              parents to show their kid's performance
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section id="our-teacher">
+        <div class="container">
+          <h2>Our Teacher</h2>
+          <div id="our-teacher">
+            <img
+              src="https://images.pexels.com/photos/8612993/pexels-photo-8612993.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="Ms. Jane Smith"
+            />
+            <div>
+              <h3>Ms. Jane Smith</h3>
+              <p>
+                Ms. Jane Smith is a warm and energetic kindergarten teacher with
+                a passion for nurturing young minds. With over ten years of
+                experience in early childhood education, she creates a welcoming
+                and playful learning environment where curiosity and creativity
+                thrive. Ms. Smith is known for her gentle approach, guiding her
+                students with patience and kindness as they explore the basics
+                of reading, math, and social skills.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <footer>
+      <div class="container">
+        <h4>Follow us on:</h4>
+        <ul>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Instagram</a></li>
+        </ul>
+        <p>Contact: JaneSmith@SunshineKindergarten.com</p>
+      </div>
+    </footer>
+
+    <script>
+      document.querySelector('.nav-toggle').addEventListener('click', function() {
+        document.querySelector('nav ul').classList.toggle('show');
+      });
+    </script>
   </body>
 </html>
